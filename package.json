@@ -1,20 +1,16 @@
 {
 	"name": "ring-butter",
 	"version": "1.0.0",
-	"description": "Circular Array with Typescript",
+	"description": "Circular Buffer with Typescript",
 	"homepage": "https://github.com/punkyoon/ring-butter",
-	"main": "src/ring-butter.ts",
+	"main": "build/ring-butter.js",
+	"types": "build/ring-butter.d.ts",
 	"author": {
 		"name": "Jiyoon Ha",
 		"email": "punkkid001@gmail.com",
 		"url": "https://github.com/punkyoon"
 	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license.php"
-		}
-	],
+	"license": "MIT",
 	"scripts": {
 		"build": "tsc",
 		"test": "jest --config jestconfig.json"
@@ -28,5 +24,6 @@
 		"jest": "^24.1.0",
 		"ts-jest": "^23.10.5",
 		"typescript": "^3.3.3"
-	}
+	},
+	"files": ["build/**/*"]
 }
