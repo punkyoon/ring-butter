@@ -8,19 +8,25 @@ We have excluded mathematical methods such as `avg` and `median` from [CBuffer](
 
 It is helpful to check the test code for simple usage.
 
-## Install packages
+## Install ring-butter
+
+```bash
+$ npm i ring-butter
+```
+
+### Install packages
 
 ```bash
 $ npm install
 ```
 
-## Build
+### Build
 
 ```bash
 $ npm run build
 ```
 
-## Test
+### Test
 
 ```bash
 $ npm run test
